@@ -1,0 +1,14 @@
+{
+  "id": 604,
+  "name": "Updated Data",
+  "shortDescription": "Updated string",
+  "longDescription": "Updated string",
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "createdBy": "BOT aining Type",
+  "createdOn": "2022-12-07T07:05:45.223",
+  "modifiedBy": "Updated BOT KING",
+  "modifiedOn": "2022-12-07T07:05:58.6120532Z"
+}

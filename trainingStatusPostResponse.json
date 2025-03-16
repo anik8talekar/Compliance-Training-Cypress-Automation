@@ -1,0 +1,13 @@
+{
+  "name": "gffg",
+  "shortDescription": "short",
+  "longDescription": "long",
+  "status": {
+    "id": 3,
+    "name": "lkjhg"
+  },
+  "createdBy": "string",
+  "createdOn": "2022-08-22T13:40:31.896Z",
+  "modifiedBy": "string",
+  "modifiedOn": "2022-08-22T13:40:31.896Z"
+}

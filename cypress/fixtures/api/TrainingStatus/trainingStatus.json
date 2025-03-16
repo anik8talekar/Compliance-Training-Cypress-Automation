@@ -1,0 +1,148 @@
+{
+  "definitions": {},
+
+  "$id": "https://example.com/object1659336765.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "results",
+    "currentPage",
+    "pageCount",
+    "pageSize",
+    "totalRecords"
+  ],
+  "properties": {
+    "results": {
+      "$id": "#root/results",
+      "title": "Results",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/results/items",
+        "title": "Items",
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "shortDescription",
+          "longDescription",
+          "status",
+          "createdBy",
+          "createdOn",
+          "modifiedBy",
+          "modifiedOn"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#root/results/items/id",
+            "title": "Id",
+            "type": "integer",
+            "examples": [1],
+            "default": 0
+          },
+          "name": {
+            "$id": "#root/results/items/name",
+            "title": "Name",
+            "type": "string",
+            "default": "",
+            "examples": ["Assigned"],
+            "pattern": "^.*$"
+          },
+          "shortDescription": {
+            "$id": "#root/results/items/shortDescription",
+            "title": "Shortdescription",
+            "type": "string",
+            "default": "",
+            "examples": ["Assiged"],
+            "pattern": "^.*$"
+          },
+          "longDescription": {
+            "$id": "#root/results/items/longDescription",
+            "title": "Longdescription",
+            "type": "null",
+            "default": null
+          },
+          "status": {
+            "$id": "#root/results/items/status",
+            "title": "Status",
+            "type": "object",
+            "required": ["id", "name"],
+            "properties": {
+              "id": {
+                "$id": "#root/results/items/status/id",
+                "title": "Id",
+                "type": "integer",
+                "examples": [1],
+                "default": 0
+              },
+              "name": {
+                "$id": "#root/results/items/status/name",
+                "title": "Name",
+                "type": "string",
+                "default": "",
+                "examples": ["Active"],
+                "pattern": "^.*$"
+              }
+            }
+          },
+          "createdBy": {
+            "$id": "#root/results/items/createdBy",
+            "title": "Createdby",
+            "type": "string",
+            "default": "",
+            "examples": ["veena@imriel.com"],
+            "pattern": "^.*$"
+          },
+          "createdOn": {
+            "$id": "#root/results/items/createdOn",
+            "title": "Createdon",
+            "type": "string",
+            "default": "",
+            "examples": ["2022-07-19T09:23:43.303"],
+            "pattern": "^.*$"
+          },
+          "modifiedBy": {
+            "$id": "#root/results/items/modifiedBy",
+            "title": "Modifiedby",
+            "type": "null",
+            "default": null
+          },
+          "modifiedOn": {
+            "$id": "#root/results/items/modifiedOn",
+            "title": "Modifiedon",
+            "type": "null",
+            "default": null
+          }
+        }
+      }
+    },
+    "currentPage": {
+      "$id": "#root/currentPage",
+      "title": "Currentpage",
+      "type": "integer",
+      "examples": [1],
+      "default": 0
+    },
+    "pageCount": {
+      "$id": "#root/pageCount",
+      "title": "Pagecount",
+      "type": "integer",
+      "examples": [1],
+      "default": 0
+    },
+    "pageSize": {
+      "$id": "#root/pageSize",
+      "title": "Pagesize",
+      "type": "integer",
+      "examples": [10],
+      "default": 0
+    },
+    "totalRecords": {
+      "$id": "#root/totalRecords",
+      "title": "Totalrecords",
+      "type": "integer",
+      "examples": [4],
+      "default": 0
+    }
+  }
+}

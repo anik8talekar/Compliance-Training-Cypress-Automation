@@ -1,0 +1,14 @@
+{
+  "id": 1049,
+  "name": "NEW model",
+  "shortDescription": "short string",
+  "longDescription": "long string",
+  "status": {
+    "id": 2,
+    "name": "Archived"
+  },
+  "createdBy": "yash@imriel.com",
+  "createdOn": "2022-12-07T07:04:26.043",
+  "modifiedBy": "BOT MODE",
+  "modifiedOn": "2022-12-07T07:04:37.8951344Z"
+}

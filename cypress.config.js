@@ -1,0 +1,17 @@
+const { defineConfig } = require('cypress')
+
+module.exports = defineConfig({
+  video: false,
+  e2e: {
+    // We've imported your old cypress plugins here.
+    // You may want to clean this up later by importing these.
+    setupNodeEvents(on, config) {
+      return require('./cypress/plugins/index.js')(on, config)
+    },
+    specPattern: [
+      'cypress/e2e/**/*.{feature,features}',
+      'cypress/e2e/!ui/*.{feature,features}',
+    ],
+    excludeSpecPattern: [],
+  },
+})

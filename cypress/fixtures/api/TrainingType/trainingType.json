@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "string"
+    },
+    "longDescription": {
+      "type": "null"
+    },
+    "status": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["id", "name"]
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "createdOn": {
+      "type": "string"
+    },
+    "modifiedBy": {
+      "type": "null"
+    },
+    "modifiedOn": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "shortDescription",
+    "longDescription",
+    "status",
+    "createdBy",
+    "createdOn",
+    "modifiedBy",
+    "modifiedOn"
+  ]
+}

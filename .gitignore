@@ -1,0 +1,5 @@
+node_modules/
+cypress/videos/
+reports/
+cypress/cucumber-json/
+cypress/fixtures/ui/mock-lookupdata.json

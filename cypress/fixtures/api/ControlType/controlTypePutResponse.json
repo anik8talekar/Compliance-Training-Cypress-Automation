@@ -1,0 +1,13 @@
+{
+  "id": 336,
+  "name": "Sandesh",
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "systemName": "string",
+  "createdBy": "string",
+  "createdOn": "2022-12-15T10:34:03.437",
+  "modifiedBy": "string",
+  "modifiedOn": "2022-12-15T13:15:28.6129479Z"
+}

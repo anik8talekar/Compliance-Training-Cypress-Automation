@@ -1,0 +1,30 @@
+{
+  "id": 69,
+  "name": "Sandesh",
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "systemName": "string",
+  "createdBy": "string",
+  "createdOn": "2022-12-19T09:30:01.117",
+  "modifiedBy": "Aniket",
+  "modifiedOn": "2022-12-19T09:37:28.3523774Z",
+  "configuration": [
+    {
+      "content": {
+        "id": 23,
+        "name": "test"
+      },
+      "trainingQuestion": {
+        "id": 21,
+        "name": "que1"
+      },
+      "displayOrder": 1,
+      "status": {
+        "id": 1,
+        "name": "Active"
+      }
+    }
+  ]
+}

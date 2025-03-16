@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "shortDescription": "string",
+  "longDescription": "string",
+  "trainingType": {
+    "id": 3,
+    "name": "string"
+  },
+  "status": {
+    "id": 3,
+    "name": "string"
+  },
+  "modifiedBy": "string"
+}

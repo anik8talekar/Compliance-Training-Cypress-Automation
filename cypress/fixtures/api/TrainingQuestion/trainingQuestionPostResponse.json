@@ -1,0 +1,26 @@
+{
+  "id": 391,
+  "name": "Aniket",
+  "question": "string",
+  "description": "string",
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "controlType": {
+    "id": 152,
+    "name": "string"
+  },
+  "isRequired": true,
+  "hint": "string",
+  "createdBy": "string",
+  "createdOn": "2022-12-16T09:30:02.8993782Z",
+  "answers": [
+    {
+      "id": 279,
+      "answer": "string",
+      "isCorrect": true,
+      "displayOrder": 1
+    }
+  ]
+}

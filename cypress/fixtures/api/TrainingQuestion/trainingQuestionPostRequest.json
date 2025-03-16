@@ -1,0 +1,25 @@
+{
+  "name": "Aniket",
+  "question": "string",
+  "description": "string",
+  "status": {
+    "id": 1,
+    "name": "string"
+  },
+  "controlType": {
+    "id": 152,
+    "name": "string"
+  },
+  "isRequired": true,
+  "hint": "string",
+  "createdBy": "string",
+  "systemName": "string",
+  "answers": [
+    {
+      "answer": "string",
+      "isCorrect": true,
+      "displayOrder": 1,
+      "statusId": 1
+    }
+  ]
+}

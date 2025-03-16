@@ -1,0 +1,16 @@
+{
+  "name": "Aniket",
+  "shortDescription": "QA",
+  "longDescription": "JR",
+  "status": {
+    "id": 1
+  },
+  "contentType": {
+    "id": 1
+  },
+  "hint": "string",
+  "displayOrder": 1,
+  "systemName": "string",
+  "title": "string",
+  "createdBy": "Aniket"
+}

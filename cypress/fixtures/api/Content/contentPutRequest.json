@@ -1,0 +1,16 @@
+{
+  "name": "Sandesh",
+  "shortDescription": "{{$randomJobDescriptor}}",
+  "longDescription": "{{$randomWord}}",
+  "status": {
+    "id": 1
+  },
+  "contentType": {
+    "id": 1
+  },
+  "hint": "string",
+  "displayOrder": 1,
+  "systemName": "string",
+  "title": "string",
+  "modifiedBy": "Aniket"
+}

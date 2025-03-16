@@ -1,0 +1,10 @@
+{
+  "name": "Taining Type data ",
+  "shortDescription": "short Taining Type",
+  "longDescription": "Long Taining Type",
+  "status": {
+    "id": 1,
+    "name": "string"
+  },
+  "createdBy": "BOT aining Type"
+}

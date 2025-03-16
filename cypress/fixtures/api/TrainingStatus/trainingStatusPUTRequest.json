@@ -1,0 +1,10 @@
+{
+  "name": "NEW model",
+  "shortDescription": "short string",
+  "longDescription": "long string",
+  "status": {
+    "id": 2,
+    "name": "string"
+  },
+  "modifiedBy": "BOT MODE"
+}

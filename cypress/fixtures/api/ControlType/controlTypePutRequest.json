@@ -1,0 +1,10 @@
+{
+  "name": "Sandesh",
+  "status": {
+    "id": 1,
+    "name": "string"
+  },
+  "systemName": "string",
+  "modifiedBy": "string",
+  "displayOrder": 0
+}

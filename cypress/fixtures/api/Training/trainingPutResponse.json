@@ -1,0 +1,18 @@
+{
+  "id": 959,
+  "name": "string",
+  "shortDescription": "string",
+  "longDescription": "string",
+  "trainingType": {
+    "id": 3,
+    "name": "OnBoarding"
+  },
+  "status": {
+    "id": 3,
+    "name": "Inactive"
+  },
+  "createdBy": "yash@imriel.com",
+  "createdOn": "2022-12-07T07:03:29.043",
+  "modifiedBy": "string",
+  "modifiedOn": "2022-12-07T07:03:40.5017705Z"
+}

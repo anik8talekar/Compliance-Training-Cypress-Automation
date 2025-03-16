@@ -1,0 +1,10 @@
+{
+  "name": "AutomatedTest1",
+  "shortDescription": "AutomatedTest1",
+  "longDescription": "AutomatedTest1",
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "createdBy": "yash@imriel.com"
+}

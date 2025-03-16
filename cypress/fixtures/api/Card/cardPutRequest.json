@@ -1,0 +1,26 @@
+{
+  "name": "Sandesh",
+  "status": {
+    "id": 1,
+    "name": "string"
+  },
+  "configuration": [
+    {
+      "content": {
+        "id": 23,
+        "name": "string"
+      },
+      "trainingQuestion": {
+        "id": 21,
+        "name": "string"
+      },
+      "displayOrder": 0,
+      "status": {
+        "id": 1,
+        "name": "string"
+      }
+    }
+  ],
+  "systemName": "string",
+  "modifiedBy": "Aniket"
+}

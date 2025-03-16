@@ -1,0 +1,14 @@
+{
+  "name": "AutomatedTest1",
+  "shortDescription": "AutomatedTest1",
+  "longDescription": "AutomatedTest1",
+  "trainingType": {
+    "id": 3,
+    "name": "OnBoarding"
+  },
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "createdBy": "yash@imriel.com"
+}

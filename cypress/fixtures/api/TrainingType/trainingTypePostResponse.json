@@ -1,0 +1,12 @@
+{
+  "id": 604,
+  "name": "Taining Type data ",
+  "shortDescription": "short Taining Type",
+  "longDescription": "Long Taining Type",
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "createdBy": "BOT aining Type",
+  "createdOn": "2022-12-07T07:05:45.2226433Z"
+}

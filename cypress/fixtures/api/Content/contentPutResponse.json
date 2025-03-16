@@ -1,0 +1,22 @@
+{
+  "id": 241,
+  "name": "Sandesh",
+  "shortDescription": "{{$randomJobDescriptor}}",
+  "longDescription": "{{$randomWord}}",
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "contentType": {
+    "id": 1,
+    "name": "Audio"
+  },
+  "hint": "string",
+  "displayOrder": 1,
+  "systemName": "string",
+  "title": "string",
+  "createdBy": "Aniket",
+  "createdOn": "2022-12-16T09:44:25.987",
+  "modifiedBy": "Aniket",
+  "modifiedOn": "2022-12-16T09:48:37.8198352Z"
+}

@@ -1,0 +1,100 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1659694750.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "shortDescription",
+    "longDescription",
+    "status",
+    "createdBy",
+    "createdOn",
+    "modifiedBy",
+    "modifiedOn"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#root/id",
+      "title": "Id",
+      "type": "integer",
+      "examples": [1],
+      "default": 0
+    },
+    "name": {
+      "$id": "#root/name",
+      "title": "Name",
+      "type": "string",
+      "default": "",
+      "examples": ["Assigned"],
+      "pattern": "^.*$"
+    },
+    "shortDescription": {
+      "$id": "#root/shortDescription",
+      "title": "Shortdescription",
+      "type": "string",
+      "default": "",
+      "examples": ["Assiged"],
+      "pattern": "^.*$"
+    },
+    "longDescription": {
+      "$id": "#root/longDescription",
+      "title": "Longdescription",
+      "type": "null",
+      "default": null
+    },
+    "status": {
+      "$id": "#root/status",
+      "title": "Status",
+      "type": "object",
+      "required": ["id", "name"],
+      "properties": {
+        "id": {
+          "$id": "#root/status/id",
+          "title": "Id",
+          "type": "integer",
+          "examples": [1],
+          "default": 0
+        },
+        "name": {
+          "$id": "#root/status/name",
+          "title": "Name",
+          "type": "string",
+          "default": "",
+          "examples": ["Active"],
+          "pattern": "^.*$"
+        }
+      }
+    },
+    "createdBy": {
+      "$id": "#root/createdBy",
+      "title": "Createdby",
+      "type": "string",
+      "default": "",
+      "examples": ["veena@imriel.com"],
+      "pattern": "^.*$"
+    },
+    "createdOn": {
+      "$id": "#root/createdOn",
+      "title": "Createdon",
+      "type": "string",
+      "default": "",
+      "examples": ["2022-07-19T09:23:43.303"],
+      "pattern": "^.*$"
+    },
+    "modifiedBy": {
+      "$id": "#root/modifiedBy",
+      "title": "Modifiedby",
+      "type": "null",
+      "default": null
+    },
+    "modifiedOn": {
+      "$id": "#root/modifiedOn",
+      "title": "Modifiedon",
+      "type": "null",
+      "default": null
+    }
+  }
+}

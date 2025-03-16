@@ -1,0 +1,11 @@
+{
+  "id": 343,
+  "name": "Aniket",
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "systemName": "string",
+  "createdBy": "string",
+  "createdOn": "2022-12-16T06:24:43.1123343Z"
+}

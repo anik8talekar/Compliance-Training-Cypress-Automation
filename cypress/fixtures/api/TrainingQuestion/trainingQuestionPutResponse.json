@@ -1,0 +1,21 @@
+{
+  "id": 376,
+  "name": "Sandesh",
+  "question": "string",
+  "description": "Qa Engineer",
+  "status": {
+    "id": 1,
+    "name": "Active"
+  },
+  "controlType": {
+    "id": 152,
+    "name": "string"
+  },
+  "isRequired": true,
+  "hint": "string",
+  "createdBy": "string",
+  "createdOn": "2022-12-16T09:10:29.827",
+  "modifiedBy": "Aniket",
+  "modifiedOn": "2022-12-16T09:15:13.8117633Z",
+  "answers": []
+}
