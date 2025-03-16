@@ -25,7 +25,7 @@ Step 2. Open the terminal & run the below command
 clone command: git clone (paste the URL for the repository):
 
 ```bash
-git clone https://imriel-imriel.visualstudio.com/Bootcamp/_git/IMRIEL.Training.E2E.Tests
+git clone https://github.com/anik8talekar/Compliance-Training-Cypress-Automation.git
 ```
 
 # How to execute test cases
